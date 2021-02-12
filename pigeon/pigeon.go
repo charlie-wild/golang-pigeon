@@ -12,15 +12,15 @@ type Pigeon struct {
 }
 
 //this function is a method on a pointer receiver.
-func (p *Pigeon) flyToLocation(newLocation string) {
+func (p *Pigeon) FlyToLocation(newLocation string) {
 	time.Sleep(2)
 	p.CurrentLocation = newLocation
 }
 
-func (p Pigeon) getLocation() string {
+func (p Pigeon) GetLocation() string {
 	return p.CurrentLocation
 }
 
-func (p *Pigeon) returnHome() {
+func (p *Pigeon) ReturnHome() {
 	p.CurrentLocation = p.HomeLocation
 }
