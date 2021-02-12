@@ -9,11 +9,9 @@ import (
 func main() {
 
 	pigeonOne := pigeon.Pigeon{
-		Name:            "BigWing",
-		Colour:          "blue",
-		Wingspan:        4,
-		HomeLocation:    "Chorlton",
-		CurrentLocation: "Chorlton",
+		Name:         "BigWing",
+		Colour:       "blue",
+		HomeLocation: "Chorlton",
 	}
 
 	fmt.Println(pigeonOne.GetLocation())
