@@ -44,3 +44,5 @@ func CreateNewPigeon(name, colour, homelocation string) Pigeon {
 
 	return pg
 }
+
+//implement message functions
